@@ -1,7 +1,7 @@
 {
-  "name": "dave-api",
+  "name": "dave-mailserver",
   "version": "1.0.0",
-  "description": "Dave's remote REST API calls",
+  "description": "Dave's remote email server",
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
