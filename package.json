@@ -1,0 +1,17 @@
+{
+  "name": "dave-api",
+  "version": "1.0.0",
+  "description": "Dave's remote REST API calls",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David D. Boling",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^4.0.2",
+    "good-console": "^2.0.1",
+    "hapi": "^7.5.2",
+    "mailgun-js": "^0.6.7"
+  }
+}
