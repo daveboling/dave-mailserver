@@ -1,6 +1,10 @@
 var port = process.env.PORT;
 var Hapi = require('hapi');
-var server = new Hapi.Server(port);
+var server = new Hapi.Server(port, {
+  cors: {
+    matchOrigin: false
+  }
+});
 var email = require('./controllers/email');
 
 
